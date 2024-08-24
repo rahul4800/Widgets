@@ -1,0 +1,70 @@
+.displayWidgets{
+    position: fixed;
+    top: 0;
+    right: -550px;
+    width: 500px;
+    height: 100%;
+    background-color: #f8f8f8;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.displayWidgets.open{
+    right: 0;
+}
+
+.add-widget-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: blue;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+.add-widget-heading h2{
+    color: white;
+    
+}
+.add-widget-heading button{
+    font-size: 22px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+.widget-checkboxes{
+    padding: 10px;
+}
+.checkbox-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-display{
+position: absolute;
+bottom: 20px;
+right: 20px;
+display: flex;
+gap: 10px;
+}
+
+.btn-display button{
+    padding: 10px 20px;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-display .btn-2{
+    background-color: blue;
+    
+}
+.btn-display .btn-1{
+    color: black;
+    
+}

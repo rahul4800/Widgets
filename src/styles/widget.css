@@ -1,0 +1,81 @@
+.container {
+    
+    padding: 10px 40px;
+}
+
+.widgets-content {
+
+}
+
+.cspm-widget {
+   /* display: grid;
+   grid-template-columns: repeat(3,1fr);  */
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-bottom: 30px;
+    height: auto;
+
+}
+
+.widget-items {
+    
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; */
+}
+.dash1-widget{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+
+    
+}
+.dash1-item{
+    border: 1px solid grey;
+    height: 200px;
+}
+.cwpp-widget, .registry-widget{
+    margin-bottom: 30px;
+    height: auto;
+}
+.delete-widget{
+width: 100%;
+padding: 6px;
+display: flex;
+justify-content: end;
+
+margin-bottom: 10px;
+
+}
+.delete-btn{
+    border: none;
+    font-size: 20px;
+    /*border-radius: 50%; */
+}
+.delete-icon:hover{
+    color: red;
+}
+
+.new-item{
+    height: 200px;
+}
+.add-item{
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px;
+    border: 1px solid rgb(200, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.add-item input{
+    margin-top: 10px;
+   
+}
+.add-item button{
+    padding: 12px;
+}
+

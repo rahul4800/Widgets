@@ -1,0 +1,51 @@
+
+header{
+    
+    padding: 10px 40px ;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left h4{
+    font-weight: 600;
+}
+.left .heading-icon{
+    font-size: 10px;
+    margin-left: 2px;
+}
+.left h4 span{
+    color: rgb(48, 48, 147);
+    font-weight: 600;
+}
+.search input{
+    width: 25rem;
+    padding: 8px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+}
+.search button{
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.dashboard-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigate button{
+    padding: 5px 10px;
+    margin-right: 15px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+}
+
+.navigate select{
+    padding: 5px 10px;
+    border: 2px solid rgb(4, 4, 129);
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+}

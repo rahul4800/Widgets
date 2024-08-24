@@ -1,0 +1,97 @@
+
+.slider{
+    position: fixed;
+    top: 0;
+    right: -550px;
+    width: 500px;
+    height: 100%;
+    background-color: #f8f8f8;
+    transition: 0.3s;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.slider.open{
+    right: 0;
+}
+
+.add-widget-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: blue;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+.add-widget-heading h2{
+    color: white;
+    
+}
+.add-widget-heading button{
+    font-size: 22px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+.select-category{
+    width: 100%;
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+.select-category button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+ /* .select-category button:hover{
+    border-bottom: 2px solid #520909;
+   
+}  */
+
+.select-category button.selected{
+    border-bottom: 2px solid #520909;
+}
+
+.slider-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.slider-content input{
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 8px;
+
+}
+
+.btn-add{
+    position: absolute;
+bottom: 20px;
+right: 20px;
+display: flex;
+gap: 10px;
+
+}
+.btn-add button{
+    padding: 10px 20px;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-add .btn-2{
+    background-color: blue;
+    
+}
+.btn-add .btn-1{
+    color: black;
+    
+}
